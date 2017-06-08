@@ -7,7 +7,7 @@ public class Animal
     private int m_health;
     private Breed m_breed;
 
-    public Monster(Breed breed)
+    public Animal(Breed breed)
     {
         m_breed = breed;
         m_health = breed.GetHealth();

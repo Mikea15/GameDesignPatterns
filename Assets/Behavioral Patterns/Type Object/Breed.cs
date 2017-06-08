@@ -18,7 +18,7 @@ public class Breed
         return m_health;
     }
 
-    public int GetAttack( )
+    public string GetAttack( )
     {
         return m_attack;
     }

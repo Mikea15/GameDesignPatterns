@@ -13,6 +13,11 @@ public class Breed
         m_health = health;
     }
 
+    public Animal NewAnimal( )
+    {
+        return new Animal(this);
+    }
+
     public int GetHealth( )
     {
         return m_health;

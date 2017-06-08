@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Animal
 {
+    
     private int m_health;
     private Breed m_breed;
 
